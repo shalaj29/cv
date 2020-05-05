@@ -1,0 +1,49 @@
+body{
+background-color:#b6d7de;
+font-family: "Gill Sans", sans-serif;
+
+
+}
+hr{
+border-color: dimgrey;
+border-style: none;
+border-top-style: dotted;
+border-width: 4px;
+width: 5%;
+}
+
+h1,h3{
+	box-shadow: 3px 3px whitesmoke, -1em 0 .4em slategrey;
+	color:#015051;
+}
+
+p{
+	animation-duration: 3s;
+  animation-name: slidein;
+
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.image{
+	border-radius: 100%;
+	box-shadow: 3px 3px whitesmoke, -1em 0 .4em slategrey;
+	color:#015051;
+
+}
+.ref{
+	background-color:#015051;
+	color: #f3f3f3;
+}
+.ref:hover{
+	background-color:#ff9867;
+}
